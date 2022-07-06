@@ -1,0 +1,63 @@
+.forme{
+    margin-left: 30%;
+    margin-top: 8%;
+}
+input{
+    width: 42%;
+    border: 2px solid gray;
+    border-radius: 12px 12px 12px ;
+}
+input::placeholder{
+    text-align: center;
+
+}
+button{
+    margin-left: 12px;
+    border-radius: 12px 12px 12px 12px;
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 2%;
+    gap: 9%;
+    align-items: baseline;
+    width: 90%;
+    overflow: hidden;
+}
+.todo{
+    border: 1px solid blue;
+    width: 50%;
+}
+.todo-body{
+    color: black;
+    text-align: center;
+}
+.doing{
+    border: 1px solid yellow;
+    width: 60%;
+}
+.doing-body{
+    color: black;
+    text-align: center;
+}
+.done{
+    border: 1px solid greenyellow;
+    width: 50%;
+}
+.done-body{
+    color: black;
+    text-align: center;
+}
+.title1{
+    color: black;
+    margin-left: 140px;
+}
+.title2{
+    color: black;
+    margin-left: 180px;
+}
+.title3{
+    color: black;
+    margin-left: 180px;
+}
